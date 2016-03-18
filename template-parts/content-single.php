@@ -28,8 +28,9 @@
 		?>
 	</div><!-- .entry-content -->
 
+
+</article><!-- #post-## -->
+
 	<footer class="entry-footer">
 		<?php Asheville2016_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-

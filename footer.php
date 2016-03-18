@@ -14,10 +14,11 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-            &copy; 2016 Asheville Triathlon Club
+		<div class="site-info" id="footerContent">
+            &copy; 2016 Asheville Triathlon Club - Design by Ashley Ruffini
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

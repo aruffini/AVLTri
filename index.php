@@ -14,9 +14,9 @@
 
 get_header(); ?>
 
-<div class="row"> 
+<div class="row" id="contentRow"> 
 
-	<div id="primary" class="content-area col-sm-8">
+	<div id="primary" class="content-area col-sm-8 primaryContent">
 
         
 		<main id="main" class="site-main" role="main">

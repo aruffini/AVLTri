@@ -163,6 +163,7 @@ require get_template_directory() . '/inc/jetpack.php';
  */
 require get_template_directory() . '/inc/wp_bootstrap_navwalker.php';
 
+
 //Three boxes on main page
 if ( function_exists('register_sidebar') )
 register_sidebar(array(

@@ -44,7 +44,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Galleries
 --------------------------------------------------------------*/
 
-@import url("mystyle.css");
+/*@import url("phone-default.css");*/
 
 /*--------------------------------------------------------------
 # Normalize
@@ -358,7 +358,7 @@ html {
 }
 
 body {
-	background: #fff; /* Fallback for when there is no custom background color defined. */
+	background: #e7e7e7; /* Fallback for when there is no custom background color defined. */
 }
 
 blockquote:before,
@@ -373,12 +373,12 @@ q {
 	quotes: "" "";
 }
 
-hr {
+/*hr {
 	background-color: #ccc;
 	border: 0;
 	height: 1px;
 	margin-bottom: 1.5em;
-}
+}*/
 
 ul,
 ol {

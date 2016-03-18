@@ -15,17 +15,27 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php the_content(); ?>
 		<?php
+			the_content();
+
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'Asheville2016' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'asheville2016' ),
 				'after'  => '</div>',
 			) );
 		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php edit_post_link( esc_html__( 'Edit', 'Asheville2016' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php
+			edit_post_link(
+				sprintf(
+					/* translators: %s: Name of current post */
+					esc_html__( 'Edit %s', 'asheville2016' ),
+					the_title( '<span class="screen-reader-text">"', '"</span>', false )
+				),
+				'<span class="edit-link">',
+				'</span>'
+			);
+		?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
-

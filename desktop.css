@@ -1,0 +1,179 @@
+@media only screen and (min-width: 1140px) {
+    .site {
+        display: flex;
+        min-height: 99vh;
+        flex-direction: column;
+    }
+    /*-----Home Page------*/
+    .homePage {
+        background-color: #E2E3E2;
+        max-height: 99vh;
+    }
+    #contentWrapper {
+        width: 100%;
+    }
+    #contentWrapper::after {
+        margin: 25px;
+    }
+    div#wrapperHeader {
+        display: block;
+        width: 100%;
+        max-height: 650px;
+        /* height of the background image? */
+        /*background:url('http://placehold.it/1550x650') repeat-x 0 0;*/
+        text-align: center;
+        background-color: #575958;
+    }
+    div#wrapperHeader div#header {
+        /*width: 99vw;*/
+        max-height: 650px;
+        margin: 0 auto;
+    }
+    div#wrapperHeader div#header img {
+        /*width: 99wv;*/
+        /* the width of the logo image */
+        max-height: 650px;
+        /* the height of the logo image */
+        margin: 0 auto;
+    }
+    #threeBoxes {
+        width: 900px;
+        background-color: #FFA158;
+        border-radius: 15px 15px 0 0;
+        margin: 0 auto;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        z-index: 2;
+    }
+    #index_articles {
+        /*background: url(images/swim_black.png) repeat-y;*/
+        margin: 0px;
+        overflow: hidden;
+        letter-spacing: -.5px;
+        font-family: 'Ubuntu', Arial, Sans-Serif;
+        padding-left: 0px;
+    }
+    #index_articles li {
+        display: inline;
+        width: 251px;
+        margin: 20px 65px 20px 20px;
+        float: left;
+        /*color: #575958;*/
+    }
+    .index_ul {
+        margin: 0;
+        padding: 0;
+    }
+    #index_articles li li li a {
+        padding-left: 10px;
+    }
+    #index_articles li li li li a {
+        padding-left: 20px;
+    }
+    #index_articles li li li,
+    #index_articles li li li li {
+        padding-top: 10px;
+    }
+    #index_articles li li li,
+    #index_articles li li li li {
+        margin-bottom: 0;
+    }
+    #index_articles li li li ul {
+        padding-top: 50px;
+    }
+    #index_articles li.right {
+        margin-right: 0;
+    }
+    #index_articles li h3 {
+        margin-bottom: 20px;
+    }
+    #left_sidebar ul ul {
+        margin-bottom: 0;
+    }
+    #index_articles li#leftBox {
+        margin-left: 50px;
+        margin-right: 0px;
+        background: url(images/swim_white_50.png) no-repeat center;
+        height: 350px;
+    }
+    #index_articles li#middleBox {
+        margin-right: 0px;
+        background: url(images/bike_white_50.png) no-repeat center;
+        height: 350px;
+    }
+    #index_articles li#rightBox {
+        margin-right: 50px;
+        background: url(images/runner_white_50.png) no-repeat center;
+        height: 350px;
+    }
+    /*-----Navigation------*/
+    .navbar-nav {
+        float: right;
+    }
+    /*-----Primary Content-----*/
+    /*------Side Bar-------*/
+    #secondary {
+        margin: 0;
+        padding: 0;
+    }
+    #secondary ul {
+        margin-left: 0;
+        padding-left: 0;
+        list-style: none;
+    }
+    #secondary ul li {
+        color: #185FD0;
+    }
+    #secondary ul li a {
+        color: #185FD0;
+    }
+    #secondary ul li a:hover {
+        color: #DE660A;
+    }
+    .titleline {
+        margin: 0 0 20px 0;
+        width: 25%;
+        border-top: 3px solid #FFA158;
+    }
+    .rpwwt-post-date {
+        color: #fff;
+    }
+    #secondary ul img {
+        border-radius: 5px;
+    }
+    .rpwwt-post-date {
+        font-family: 'Ubuntu', Arial, Sans-Serif;
+        font-size: 11px;
+        line-height: 11px;
+        display: block;
+        text-transform: uppercase;
+        color: #b1b5be;
+    }
+    select {
+        /*border: 0;   */
+        padding: .5em;
+        border-radius: 3px;
+        background-color: #ebf4e4;
+        width: 165px;
+        color: #fff;
+    }
+    option {
+        font-family: 'Ubuntu', Arial, Sans-Serif;
+        color: #575958;
+    }
+    /*-----------Footer-----------*/
+    #footerContent {
+        margin-top: 20px;
+    }
+    .site-footer {
+        z-index: 5;
+        background-color: #e7e7e7;
+        color: #404040;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
